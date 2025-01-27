@@ -58,9 +58,7 @@ Create a GitHub Repository:
 
 Go to GitHub and create a new repository.
 Follow the instructions provided by GitHub to link your local repository:
-bash
-Copy
-Edit
+
 git remote add origin <your-repository-URL>
 git branch -M main
 git push -u origin main
@@ -81,9 +79,7 @@ Branch: Select main (or the branch where your code is).
 Root Directory: Leave it blank unless your code is in a subfolder.
 Build Command: Leave it blank (not required for this project).
 Start Command: Enter:
-bash
-Copy
-Edit
+
 npm start
 Set Up Environment Variables:
 
@@ -99,9 +95,7 @@ Once deployment is complete, Render will provide a URL for your server (e.g., ht
 Test in a Browser:
 
 Open the URL in your browser. You should see the message:
-csharp
-Copy
-Edit
+
 Hello, Kalvians! Your backend server is live!
 Test with Postman (Optional):
 
@@ -113,12 +107,14 @@ Update the server.js file or other files as needed.
 Push Changes to GitHub:
 
 Commit and push your changes:
-bash
-Copy
-Edit
+
 git add .
 git commit -m "Update server"
 git push
 Trigger a Redeploy on Render:
 
 Render will automatically detect changes and redeploy your service.
+
+deployed url
+
+https://backend-server-d9yf.onrender.com
